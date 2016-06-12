@@ -19,15 +19,26 @@ end
   puts '{'
   puts '  "name": "techMoney",'
   puts '  "children": ['
-exportHash.each do |key, value|
+exportHash.each_with_index do |(key, value), index|
   puts '  {'
-  puts '    "name": "' +key +'",'
+  puts '    "name": "' + key + '",'
   puts '    "children": ['
-  exportHash[key].each do |x|
-  puts '      {"name": "' +  x.first[0].to_s + ' " , "size": '+ x.first[1].to_s + ' },'
+  exportHash[key].each_with_index do |x, y|
+  print '      {"name": "' +  x.first[0].to_s + ' " , "size": '+ x.first[1].to_int.to_s + ' }'
+    if y == exportHash[key].size-1
+      puts ''
+    else
+      puts ','
+    end
+
   end
   puts '     ]'
-puts '   },'
+  print '   }'
+  if index == exportHash.size-1
+    puts ''
+  else
+    puts ','
+  end
 end
 puts '  ]'
 puts '}'
