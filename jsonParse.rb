@@ -9,7 +9,7 @@ data_hash = JSON.parse(file)
  exportHash['MSFT'] = Array.new
 
 
-for i in 0..100 do
+for i in 0..200 do
 #for i in 0..data_hash["result"]["totalrows"]-1 do
   ticker = data_hash['result']['rows'][i]["values"][2]["value"];
   exportHash[ticker].push( {data_hash['result']['rows'][i]["values"][9]["value"] => data_hash['result']['rows'][i]["values"][20]["value"] } );
