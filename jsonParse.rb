@@ -24,7 +24,7 @@ exportHash.each_with_index do |(key, value), index|
   puts '    "name": "' + key + '",'
   puts '    "children": ['
   exportHash[key].each_with_index do |x, y|
-  print '      {"name": "' +  x.first[0].to_s + ' " , "size": '+ x.first[1].to_int.to_s + ' }'
+  print '      {"name": "' +  x.first[0].to_s.delete('\\') + ' " , "size": '+ x.first[1].to_int.to_s + ' }'
     if y == exportHash[key].size-1
       puts ''
     else
