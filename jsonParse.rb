@@ -9,7 +9,8 @@ data_hash = JSON.parse(file)
  exportHash['MSFT'] = Array.new
 
 
-for i in 0..data_hash["result"]["totalrows"]-1 do
+for i in 0..10 do
+#for i in 0..data_hash["result"]["totalrows"]-1 do
   ticker = data_hash['result']['rows'][i]["values"][2]["value"];
   exportHash[ticker].push( {data_hash['result']['rows'][i]["values"][9]["value"] => data_hash['result']['rows'][i]["values"][20]["value"] } );
 end
@@ -26,8 +27,9 @@ exportHash.each do |key, value|
   puts '      {"name": "' +  x.first[0].to_s + ' " , "size": '+ x.first[1].to_s + ' },'
   end
   puts '     ]'
-puts '   }'
+puts '   },'
 end
+puts '  ]'
 puts '}'
 
 #{}"name": "cluster",
