@@ -1,17 +1,19 @@
 require 'json'
 require 'awesome_print'
-file = File.read('aapl_msft_googl.json')
+#file = File.read('aapl_msft_googl.json')
+file = File.read('top10MktCap2015.json')
+
 data_hash = JSON.parse(file)
 
  exportHash = Hash.new
- exportHash['GOOGL'] = Array.new
- exportHash['AAPL'] = Array.new
- exportHash['MSFT'] = Array.new
 
 
 #for i in 0..1000 do
 for i in 0..data_hash["result"]["totalrows"]-1 do
   ticker = data_hash['result']['rows'][i]["values"][2]["value"];
+  if !exportHash.has_key?(ticker)
+     exportHash[ticker] = Array.new
+  end
   exportHash[ticker].push( {data_hash['result']['rows'][i]["values"][9]["value"] => data_hash['result']['rows'][i]["values"][20]["value"] } );
 end
 
