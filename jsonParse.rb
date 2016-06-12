@@ -23,7 +23,7 @@ exportHash.each do |key, value|
   puts '    "name": "' +key +'",'
   puts '    "children": ['
   exportHash[key].each do |x|
-  puts '      {"name": "' +  x.first[0].to_s + '" , "size": '+ x.first[1].to_s + ' }'
+  puts '      {"name": "' +  x.first[0].to_s + '" , "size": '+ x.first[1].to_s + ' },'
   end
   puts '     ]'
 end
