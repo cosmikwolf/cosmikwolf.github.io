@@ -4,27 +4,27 @@
   {
     "name": "GOOGL",
     "children": [
-      {"name": "BANCORPSOUTH INC " , "size": 1346931.0 },
-      {"name": "FIRST COMMONWEALTH FINANCIAL CORP /PA/ " , "size": 986809.0 },
-      {"name": "MUFG AMERICAS HOLDINGS CORP " , "size": 25216722.0 },
+      {"name": "BANCORPSOUTH INC " , "size": 1346931 },
+      {"name": "FIRST COMMONWEALTH FINANCIAL CORP /PA/ " , "size": 986809 },
+      {"name": "MUFG AMERICAS HOLDINGS CORP " , "size": 25216722 },
      ]
    },
   {
     "name": "AAPL",
     "children": [
-      {"name": "BANCORPSOUTH INC " , "size": 4345537.0 },
-      {"name": "U S GLOBAL INVESTORS INC " , "size": 735517.0 },
-      {"name": "FIRST COMMONWEALTH FINANCIAL CORP /PA/ " , "size": 2725328.0 },
-      {"name": "MUFG AMERICAS HOLDINGS CORP " , "size": 55954472.0 },
+      {"name": "BANCORPSOUTH INC " , "size": 4345537 },
+      {"name": "U S GLOBAL INVESTORS INC " , "size": 735517 },
+      {"name": "FIRST COMMONWEALTH FINANCIAL CORP /PA/ " , "size": 2725328 },
+      {"name": "MUFG AMERICAS HOLDINGS CORP " , "size": 55954472 },
      ]
    },
   {
     "name": "MSFT",
     "children": [
-      {"name": "BANCORPSOUTH INC " , "size": 2032125.0 },
-      {"name": "U S GLOBAL INVESTORS INC " , "size": 0.0 },
-      {"name": "FIRST COMMONWEALTH FINANCIAL CORP /PA/ " , "size": 1229795.0 },
-      {"name": "MUFG AMERICAS HOLDINGS CORP " , "size": 56121832.0 },
+      {"name": "BANCORPSOUTH INC " , "size": 2032125 },
+      {"name": "U S GLOBAL INVESTORS INC " , "size": 0 },
+      {"name": "FIRST COMMONWEALTH FINANCIAL CORP /PA/ " , "size": 1229795 },
+      {"name": "MUFG AMERICAS HOLDINGS CORP " , "size": 56121832 },
      ]
    },
   ]
