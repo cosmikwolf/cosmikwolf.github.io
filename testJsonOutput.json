@@ -2,7 +2,7 @@
   "name": "techMoney",
   "children": [
   {
-    "name": "GOOGL"
+    "name": "GOOGL",
     "children": [
       {"name": "BANCORPSOUTH INC" , "size": 1346931.0 }
       {"name": "FIRST COMMONWEALTH FINANCIAL CORP /PA/" , "size": 986809.0 }
@@ -2024,7 +2024,7 @@
       {"name": "KOVITZ INVESTMENT GROUP PARTNERS, LLC" , "size": 19344131.0 }
       {"name": "CUTLER GROUP LP" , "size": 2079056.0 }
      ]
-    "name": "AAPL"
+    "name": "AAPL",
     "children": [
       {"name": "BANCORPSOUTH INC" , "size": 4345537.0 }
       {"name": "U S GLOBAL INVESTORS INC" , "size": 735517.0 }
@@ -4560,7 +4560,7 @@
       {"name": "KOVITZ INVESTMENT GROUP PARTNERS, LLC" , "size": 78230133.0 }
       {"name": "CUTLER GROUP LP" , "size": 47222840.0 }
      ]
-    "name": "MSFT"
+    "name": "MSFT",
     "children": [
       {"name": "BANCORPSOUTH INC" , "size": 2032125.0 }
       {"name": "U S GLOBAL INVESTORS INC" , "size": 0.0 }
