@@ -18,8 +18,8 @@ end
   puts '{'
   puts '  "name": "techMoney",'
   puts '  "children": ['
-  puts '  {'
 exportHash.each do |key, value|
+  puts '  {'
   puts '    "name": "' +key +'",'
   puts '    "children": ['
   exportHash[key].each do |x|
